@@ -397,6 +397,9 @@ section {
 .timeline .timeline-item p {
   color: var(--color-grey-2);
 }
+.timeline .timeline-item .timeline-text:hover {
+  color: var(--color-secondary);
+}
 
 .port-text {
   padding: 2rem 0;

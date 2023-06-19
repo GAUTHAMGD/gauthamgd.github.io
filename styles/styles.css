@@ -210,13 +210,13 @@ section {
 /*About*/
 .about-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
 .about-container .right-about {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
 .about-container .right-about .about-item {
@@ -259,16 +259,19 @@ section {
   background-color: var(--color-grey-5);
 }
 .about-container .left-about {
-  padding-right: 5rem;
+  /*padding-right: 5rem;*/
+  text-align: center;
 }
 .about-container .left-about p {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
+  text-align: center;
 }
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .about-stats {
@@ -443,6 +446,24 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+}
+
+.portfolios .portfolio-item .hover-items h1 {
+  color: darkblue;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif; 
+  margin-left:90px; 
+  text-decoration:none;
+}
+
+.portfolios .portfolio-item .hover-items h2 {
+  color: darkblue;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -70px; 
+  text-decoration:none;
 }
 
 .portfolios .portfolio-item .hover-items p {
@@ -662,6 +683,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  justify-content: center;
 }
 
 .main-btn {
